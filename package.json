@@ -1,0 +1,24 @@
+{
+  "name": "dart-sass-boilerplate",
+  "version": "1.0.0",
+  "description": "dart sass boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "clear:css": "rimraf css",
+    "sass:watch": "sass --watch --no-source-map --style=expanded src:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/if540/dart-sass-boilerplate.git"
+  },
+  "author": "if540",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/if540/dart-sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/if540/dart-sass-boilerplate#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "sass": "^1.42.1"
+  }
+}
